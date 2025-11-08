@@ -1,11 +1,14 @@
+[terminal]
+[terminal.shell]
+program = "C:\\Windows\\System32\\wsl.exe"
+args = ["~", "-d", "Ubuntu"]
+
 [font]
-size = 13.0
+normal = { family = "JetBrainsMonoNL Nerd Font Mono", style = "Regular" }
+bold = { family = "JetBrainsMonoNL Nerd Font Mono", style = "Bold" }
 
-[font.normal]
-family = "Fira Mono Nerd Font"
-
-[colors]
-draw_bold_text_with_bright_colors = true
+italic = { family = "JetBrainsMonoNL Nerd Font Mono", style = "Italic" }
+size = 12
 
 [env]
 TERM = "xterm-256color"
@@ -13,6 +16,7 @@ TERM = "xterm-256color"
 [[keyboard.bindings]]
 chars = "\u001BOH"
 key = "Home"
+
 mode = "AppCursor"
 
 [[keyboard.bindings]]
@@ -37,6 +41,7 @@ mods = "Shift"
 
 [[keyboard.bindings]]
 chars = "\u001B[5;5~"
+
 key = "PageUp"
 mods = "Control"
 
@@ -44,7 +49,9 @@ mods = "Control"
 chars = "\u001B[5~"
 key = "PageUp"
 
+
 [[keyboard.bindings]]
+
 chars = "\u001B[6;2~"
 key = "PageDown"
 mods = "Shift"
@@ -69,6 +76,7 @@ chars = "\u001Bf"
 key = "Right"
 mods = "Alt"
 
+
 [[keyboard.bindings]]
 chars = "\u001Bb"
 key = "Left"
@@ -79,6 +87,7 @@ chars = "\u001Bf"
 key = "Right"
 mods = "Control"
 
+
 [[keyboard.bindings]]
 chars = "\u007F"
 key = "Delete"
@@ -87,6 +96,7 @@ mods = "Shift"
 [[keyboard.bindings]]
 chars = "\u001B\u007F"
 key = "Back"
+
 mods = "Shift"
 
 [[keyboard.bindings]]
@@ -115,6 +125,7 @@ key = "Space"
 mods = "Command"
 
 [[keyboard.bindings]]
+
 chars = "\u0018)"
 key = "N"
 mods = "Shift|Command"
@@ -131,6 +142,7 @@ mods = "Shift|Command"
 
 [[keyboard.bindings]]
 chars = "\u0018("
+
 key = "P"
 mods = "Shift|Alt"
 
@@ -139,6 +151,7 @@ chars = "\u0018C"
 key = "T"
 mods = "Shift|Command"
 
+
 [[keyboard.bindings]]
 chars = "\u0018C"
 key = "T"
@@ -153,6 +166,7 @@ mods = "Shift|Command"
 chars = "\u0018$"
 key = "R"
 mods = "Shift|Alt"
+
 
 [[keyboard.bindings]]
 chars = "\u0018<"
@@ -204,7 +218,9 @@ action = "Quit"
 key = "Q"
 mods = "Command"
 
+
 [[keyboard.bindings]]
+
 action = "Quit"
 key = "W"
 mods = "Command"
@@ -215,9 +231,11 @@ key = "Key0"
 mods = "Command"
 
 [[keyboard.bindings]]
+
 action = "IncreaseFontSize"
 key = "Equals"
 mods = "Command"
+
 
 [[keyboard.bindings]]
 action = "DecreaseFontSize"
@@ -239,17 +257,22 @@ chars = "\u0018v"
 key = "V"
 mods = "Shift|Command"
 
+
 [[keyboard.bindings]]
 chars = "\u0018s"
 key = "A"
+
 mods = "Shift|Command"
 
 [[keyboard.bindings]]
 chars = "\u0018V"
+
 key = "S"
 mods = "Shift|Command"
 
+
 [[keyboard.bindings]]
+
 chars = "\u0018\b"
 key = "H"
 mods = "Shift|Command"
@@ -284,9 +307,12 @@ chars = "\u00183"
 key = "Key3"
 mods = "Command"
 
+
 [[keyboard.bindings]]
+
 chars = "\u00184"
 key = "Key4"
+
 mods = "Command"
 
 [[keyboard.bindings]]
@@ -296,6 +322,7 @@ mods = "Command"
 
 [[keyboard.bindings]]
 chars = "\u00186"
+
 key = "Key6"
 mods = "Command"
 
@@ -341,10 +368,13 @@ mods = "Command"
 
 [[keyboard.bindings]]
 chars = "\u0018["
+
 key = "LBracket"
 mods = "Command"
 
+
 [[keyboard.bindings]]
+
 chars = "\u0018="
 key = "A"
 mods = "Command"
@@ -366,11 +396,13 @@ mods = "Command"
 
 [[keyboard.bindings]]
 chars = "\u0018\u0001"
+
 key = "Escape"
 mods = "Command"
 
 [[keyboard.bindings]]
 chars = "\u0018\u0010"
+
 key = "Comma"
 mods = "Command"
 
@@ -379,7 +411,9 @@ chars = "\u0018\u000E"
 key = "Semicolon"
 mods = "Command"
 
+
 [[keyboard.bindings]]
+
 chars = "\u0018\t"
 key = "F"
 mods = "Shift|Command"
@@ -401,6 +435,7 @@ mods = "Command"
 
 [[keyboard.bindings]]
 chars = "\u0018/"
+
 key = "Slash"
 mods = "Command"
 
@@ -408,6 +443,7 @@ mods = "Command"
 chars = "\u001Bf"
 key = "F"
 mods = "Command"
+
 
 [[keyboard.bindings]]
 chars = "\u0018!"
@@ -417,6 +453,7 @@ mods = "Command"
 [[keyboard.bindings]]
 chars = "\u0018$"
 key = "I"
+
 mods = "Shift|Command"
 
 [[keyboard.bindings]]
@@ -439,6 +476,7 @@ chars = "\u0018m"
 key = "J"
 mods = "Alt"
 
+
 [[keyboard.bindings]]
 chars = "\u0018b"
 key = "K"
@@ -459,7 +497,9 @@ action = "Quit"
 key = "W"
 mods = "Alt"
 
+
 [[keyboard.bindings]]
+
 action = "ResetFontSize"
 key = "Key0"
 mods = "Alt"
@@ -468,6 +508,7 @@ mods = "Alt"
 action = "IncreaseFontSize"
 key = "Equals"
 mods = "Alt"
+
 
 [[keyboard.bindings]]
 action = "DecreaseFontSize"
@@ -494,7 +535,9 @@ chars = "\u0018s"
 key = "A"
 mods = "Shift|Alt"
 
+
 [[keyboard.bindings]]
+
 chars = "\u0018V"
 key = "S"
 mods = "Shift|Alt"
@@ -509,11 +552,13 @@ chars = """
 \u0018
 """
 key = "J"
+
 mods = "Shift|Alt"
 
 [[keyboard.bindings]]
 chars = "\u0018\u000B"
 key = "K"
+
 mods = "Shift|Alt"
 
 [[keyboard.bindings]]
@@ -524,6 +569,7 @@ mods = "Shift|Alt"
 [[keyboard.bindings]]
 chars = "\u00181"
 key = "Key1"
+
 mods = "Alt"
 
 [[keyboard.bindings]]
@@ -533,6 +579,7 @@ mods = "Alt"
 
 [[keyboard.bindings]]
 chars = "\u00183"
+
 key = "Key3"
 mods = "Alt"
 
@@ -555,6 +602,7 @@ mods = "Alt"
 chars = "\u00187"
 key = "Key7"
 mods = "Alt"
+
 
 [[keyboard.bindings]]
 chars = "\u00188"
@@ -609,6 +657,7 @@ mods = "Alt"
 [[keyboard.bindings]]
 chars = "\u0018z"
 key = "O"
+
 mods = "Shift|Alt"
 
 [[keyboard.bindings]]
@@ -676,7 +725,9 @@ chars = "\u0018!"
 key = "I"
 mods = "Alt"
 
+
 [[keyboard.bindings]]
+
 chars = "\u0018$"
 key = "I"
 mods = "Shift|Alt"
@@ -684,23 +735,58 @@ mods = "Shift|Alt"
 [window]
 option_as_alt = "Both"
 # decorations = "Buttonless"
-opacity = 1
+opacity = 0.95
 
 [window.padding]
 x = 5
 y = 5
 
+[colors]
+draw_bold_text_with_bright_colors = true
+
 [colors.primary]
-background = "#1E1E2E"
-foreground = "#CDD6F4"
-dim_foreground = "#CDD6F4"
-bright_foreground = "#CDD6F4"
+background = '#0a0f14'
+foreground = '#98d1ce'
+
+[colors.normal]
+black = '#0a0f14'
+
+red = '#c33027'
+green = '#26a98b'
+
+yellow = '#edb54b'
+blue = '#195465'
+magenta = '#4e5165'
+cyan = '#33859d'
+white = '#98d1ce'
+
+[colors.bright]
+black = '#4a5864'
+red = '#d26939'
+green = '#081f2d'
+yellow = '#245361'
+blue = '#093748'
+magenta = '#888ba5'
+cyan = '#599caa'
+white = '#d3ebe9'
+
+[colors.dim]
+black = "#45475A"
+
+red = "#F38BA8"
+green = "#A6E3A1"
+yellow = "#F9E2AF"
+blue = "#89B4FA"
+magenta = "#F5C2E7"
+cyan = "#94E2D5"
+white = "#BAC2DE"
 
 [colors.cursor]
 text = "#1E1E2E"
 cursor = "#F5E0DC"
 
 [colors.vi_mode_cursor]
+
 text = "#1E1E2E"
 cursor = "#B4BEFE"
 
@@ -724,39 +810,10 @@ background = "#F9E2AF"
 foreground = "#1E1E2E"
 background = "#A6ADC8"
 
+
 [colors.selection]
 text = "#1E1E2E"
 background = "#F5E0DC"
-
-[colors.normal]
-black = "#45475A"
-red = "#F38BA8"
-green = "#A6E3A1"
-yellow = "#F9E2AF"
-blue = "#89B4FA"
-magenta = "#F5C2E7"
-cyan = "#94E2D5"
-white = "#BAC2DE"
-
-[colors.bright]
-black = "#585B70"
-red = "#F38BA8"
-green = "#A6E3A1"
-yellow = "#F9E2AF"
-blue = "#89B4FA"
-magenta = "#F5C2E7"
-cyan = "#94E2D5"
-white = "#A6ADC8"
-
-[colors.dim]
-black = "#45475A"
-red = "#F38BA8"
-green = "#A6E3A1"
-yellow = "#F9E2AF"
-blue = "#89B4FA"
-magenta = "#F5C2E7"
-cyan = "#94E2D5"
-white = "#BAC2DE"
 
 [[colors.indexed_colors]]
 index = 16
